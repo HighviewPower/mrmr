@@ -1,0 +1,37 @@
+{
+    "editor.formatOnSave": true,
+    "files.autoSave": "afterDelay",
+    "notebook.defaultFormatter": null,
+    "json.format.enable": false,
+    "python.testing.pytestArgs": [
+        "products"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "testing.coverageBarThresholds": {
+        
+        "red": 0,
+        "yellow": 60,
+        "green": 90
+    },
+    "python.analysis.exclude": [
+        "**/.pixi",
+        "**/__pycache__",],
+    "python.analysis.diagnosticSeverityOverrides": {
+        "reportUnusedImport": "warning",
+        "reportUnusedVariable": "warning",
+        "reportUnusedFunction": "warning",
+        "reportUnusedClass": "warning"
+    },
+    "python.analysis.typeCheckingMode": "standard",
+    "notebook.output.textLineLimit": 100,
+    "notebook.output.scrolling": true,
+    "vim.startofline": false,
+    "editor.trimAutoWhitespace": true,
+    "editor.wordWrap": "on",
+    "workbench.editor.wrapTabs": true,
+    "jupyter.debugJustMyCode": false,
+    "python-envs.defaultEnvManager": "ms-python.python:system",
+    "python-envs.pythonProjects": [] //https://stackoverflow.com/questions/53594900/visual-studio-code-python-debugging-how-to-step-into-external-functions-pack
+
+}
