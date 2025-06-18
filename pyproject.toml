@@ -36,7 +36,7 @@ mrmr_selection = { path = ".", editable = true }
 [tool.pixi.tasks]
 
 [tool.pixi.environments]
-test = { features = ["test"], solve-group = "default" }
+dev = { features = ["dev"], solve-group = "default" }
 
 [dependency-groups]
-test = ["pytest"]
+dev = ["pytest", "ipykernel>=6.29.5,<7"]
